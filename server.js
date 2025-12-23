@@ -42,7 +42,6 @@ const routers = [
 routers.forEach((router) => {
   app.use("/web/api/", router);
 });
-
 app.get("/", (req, res) => {
   res.send("Hi I'm working perfectly");
 });
