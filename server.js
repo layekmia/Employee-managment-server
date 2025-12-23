@@ -17,6 +17,7 @@ app.use(
   cors({
     origin: [
       "https://worksyncemployee.netlify.app",
+      "https://worksync.nexotechit.com",
       "http://localhost:5173",
     ],
     credentials: true,
